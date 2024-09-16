@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffd1dc; /* Màu hồng nhạt cho nền */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff0f5; /* Màu hồng rất nhạt cho card */
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255,105,180,0.3); /* Bóng đổ màu hồng */
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff1493; /* Màu hồng đậm cho tiêu đề */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #8b4513; /* Màu nâu cho văn bản để tương phản với nền hồng */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cake {
+    font-size: 60px;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
